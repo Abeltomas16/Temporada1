@@ -118,7 +118,7 @@ namespace Negocios
             }
             catch (Exception ex)
             {
-                throw new Exception("Não foi possivel consultar cliente por Nome. Detalhes: " + ex.Message);
+                throw new Exception("Não foi possivel consultar cliente por Nome! Detalhes: " + ex.Message);
             }
 
         }
